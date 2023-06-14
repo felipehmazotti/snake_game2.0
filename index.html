@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./js/script.js"></script>
+    <style>
+        body {
+            background-color: gainsboro;
+        }
+        canvas{
+            box-shadow: 0px 0px 5px 5px rgb(170, 170, 170);
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Jogo da Cobra</h2>
+    <div id="borda">
+    <canvas id="gamesnake" width="512" height="512"></canvas>
+</div>
+    <br>
+    <span id="pnts"></span>
+    <br>
+    <input type="submit" value="reiniciar" onclick="restart()">
+</body>
+
+</html>
